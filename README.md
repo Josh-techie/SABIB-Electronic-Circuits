@@ -6,7 +6,7 @@ I will document my journey realizing the electronic circuit for the SABIB projec
 
 ## Content:
 
-- You can expect to find the necessayr libraries in **fzpz** that I used in my circuit.
+- You can expect to find the necessayr libraries in **fzpz** that I used in my circuit. To be found in [Libraries-Fritzing](./Libraries-Fritzing/)
 - Code implementation of each circuit to test
 - Final Circuit where I merged all the test circuits into one big one 🐬
 
