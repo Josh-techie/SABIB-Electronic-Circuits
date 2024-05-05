@@ -14,4 +14,5 @@ I will document my journey realizing the electronic circuit for the SABIB projec
 
 ## Circuit Realized:
 
-- So far I just realized the circuit of Electric-Valve with ESP32.
+- I realized the circuit of Electric-Valve with ESP32, refer to [Electric-Valve-Command](./Electric-Valve-Command/)
+- I realized the circuit of Electric Valve with Push Button, refer to [Electric-Valve-Push-Button](./Electric-Valve-Push-Button/)
