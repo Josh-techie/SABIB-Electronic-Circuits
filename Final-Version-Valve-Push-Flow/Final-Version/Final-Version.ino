@@ -11,8 +11,8 @@ const int greenPin = 5;      // Pin connected to the LED green on
 const int redPin = 16;      // pin for redpin connected to in 16
 volatile long pulse;
 bool valveState = LOW;
-bool greenState = LOW;       // State of the green led low
-bool redState = HIGH;     // Set thge state of red pin high
+bool greenState = HIGH;       // State of the green led low
+bool redState = LOW;     // Set thge state of red pin high
 bool wifiConnected = false;
 const float maxFlowRate = 2.0; // Maximum flow rate in liters per minute
 const float pulsesPerLiter = 300; // Number of pulses per liter from the flow sensor
@@ -53,6 +53,10 @@ void loop() {
     
     // Update the last button state for the next loop iteration
     lastButtonState = currentButtonState;
+
+    if (!wifiConnected){
+     connectToWiFi(); 
+    }
 
     // If connected to Wi-Fi, send data to ThingSpeak
     if (wifiConnected) {
@@ -105,4 +109,4 @@ void connectToWiFi() {
     if (WiFi.status() == WL_CONNECTED) {
         wifiConnected = true;
     }
-}
+  }
