@@ -1,5 +1,11 @@
 # SABIB-Electronic-Circuits
 
+- Here below it's a display of the SABIB project (just a prototype though 😅), we presented at the FEECRA exposition 💪
+
+<p align="center">
+<img src="./SABIB.jpg" alt="SABIB-Prototype" />
+</p>
+
 I will document my journey realizing the electronic circuit for the SABIB project here.
 
 ---
