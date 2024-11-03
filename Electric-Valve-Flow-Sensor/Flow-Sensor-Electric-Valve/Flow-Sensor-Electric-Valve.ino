@@ -1,9 +1,9 @@
 #include <WiFi.h>
 
-const char* ssid = "PolyAdminn";
-const char* password = "test12345678";
+const char* ssid = "*****";
+const char* password = "******";
 const char* server = "api.thingspeak.com";
-const char* apiKey = "9VX6E81YCHZV5WTS";
+const char* apiKey = "******";
 const int sensorPin = 2; // Define your sensor pin here
 const int electroVan = 3;
 volatile long pulse;
