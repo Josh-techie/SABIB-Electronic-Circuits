@@ -1,9 +1,9 @@
 #include <WiFi.h>
 
-const char* ssid = "PolyAdminn";
-const char* password = "test12345678";
-const char* server = "api.thingspeak.com";
-const char* apiKey = "BIWMB5HGSFTAZ9UJ";
+const char* ssid = "******";
+const char* password = "******";
+const char* server = "api.thingspeak.com"; // using Thingspeak server
+const char* apiKey = "******";
 const int sensorPin = 2;    // Define your sensor pin here
 const int valvePin = 25;    // Pin connected to the electrovalve
 const int buttonPin = 26;   // Pin connected to the button
